@@ -31,7 +31,7 @@ error_reporting(E_ALL);
 
 ini_set("allow_url_fopen", true);
 ini_set("allow_url_include", true);
-dl("php_sockets.dll");
+#dl("php_sockets.dll");
 
 if( !function_exists('apache_request_headers') ) {
     function apache_request_headers() {
